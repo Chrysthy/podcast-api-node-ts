@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "<h1 align=\"center\"> Podcast Manager 🎧 </h1>",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "start:dev": "tsx src/server.ts",
-    "start:watch":"tsx watch src/server.ts",
+    "start:watch": "tsx watch src/server.ts",
     "dist": "tsup src",
-    "start:dist":"npm run dist && node/server.js"
+    "start:dist": "npm run dist && node/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Chrysthy/podcast-api-node-ts/issues"
   },
   "homepage": "https://github.com/Chrysthy/podcast-api-node-ts#readme",
   "devDependencies": {
+    "@types/node": "^25.1.0",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
