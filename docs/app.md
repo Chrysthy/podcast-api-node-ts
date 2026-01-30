@@ -20,7 +20,9 @@ Podcasts feitos em vídeo
 
 ### 1. Listar episódios
 
-Vou retornar em uma api rest (json) o nome do podcast, nome do episódio, imagem de capa, categorias e o link.
+GET: retorna em uma api rest (json) o nome do podcast, nome do episódio, imagem de capa, categorias e o link.
+
+Response:
 
 ``` js
 [
