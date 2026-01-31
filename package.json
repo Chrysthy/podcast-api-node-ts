@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "<h1 align=\"center\"> Podcast Manager 🎧 </h1>",
   "main": "index.js",
-  "type": "module",
   "directories": {
     "doc": "docs"
   },
