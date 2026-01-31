@@ -46,3 +46,7 @@ Response:
 
 ]
 ```
+
+### 2. Filtrar episódios por nome
+
+GET: retorna lista de episódios baseado em um parâmetro enviado pelo cliente do nome do podcast.
