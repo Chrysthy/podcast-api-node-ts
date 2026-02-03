@@ -27,5 +27,15 @@
             "programação",
             "desenvolvimento"
         ]
+    },
+
+     {
+        "podcastName": "venus",
+        "videoId": "0000",
+        "episode": "Angélica",
+        "categories": [
+            "musica",
+            "cantor"
+        ]
     }
 ]
