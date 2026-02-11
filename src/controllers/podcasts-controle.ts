@@ -5,7 +5,7 @@ import { serviceFilterEpisodes } from "../services/filter-episodes-service";
 
 // Lista
 export const getListEpisodes = async (request: IncomingMessage, response: ServerResponse) => {
-
+    
     const content = await serviceListEpisodes();
 
     response.writeHead(200, { 'content-type': "application/json" })
@@ -13,11 +13,13 @@ export const getListEpisodes = async (request: IncomingMessage, response: Server
 }
 
 // Filtro
-export const getFilterEpisodes = async ( request: IncomingMessage, response: ServerResponse) => {
+export const getFilterEpisodes = async (request: IncomingMessage, response: ServerResponse) => {
 
-    const content = await serviceFilterEpisodes("flow");
+    const queryString = request.url?.split("?p=")[1] || "";
 
-    response.writeHead(200, {"Content-Type": "application/json"});
+    const content = await serviceFilterEpisodes(queryString);
+
+    response.writeHead(200, { "Content-Type": "application/json" });
     response.end(JSON.stringify(content))
 
 }
