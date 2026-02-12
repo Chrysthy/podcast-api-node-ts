@@ -15,9 +15,8 @@ export const getListEpisodes = async (request: IncomingMessage, response: Server
 // Filtro
 export const getFilterEpisodes = async (request: IncomingMessage, response: ServerResponse) => {
 
-    const queryString = request.url?.split("?p=")[1] || "";
 
-    const content = await serviceFilterEpisodes(queryString);
+    const content = await serviceFilterEpisodes(req.url);
 
     response.writeHead(200, { "Content-Type": "application/json" });
     response.end(JSON.stringify(content))
