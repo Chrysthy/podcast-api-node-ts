@@ -8,7 +8,7 @@ export const app = async (request: http.IncomingMessage, response: http.ServerRe
     
     //queryString
     // http://localhost:3333/api/episode?p=flow
-    const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
+    const baseUrl = request.url?.split("?")[0];
 
     if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {
         await getListEpisodes(request, response);
