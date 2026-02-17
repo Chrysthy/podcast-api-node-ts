@@ -3,10 +3,10 @@ import { app } from "./app";
 
 const server = http.createServer(app);
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3333;
 
-server.listen(process.env.PORT, () => {
-    console.log(`Servidor iniciado na porta ${port}`);
+server.listen(port, () => {
+    console.log(`Server running on port ${port}`);
 });
 
 
