@@ -44,3 +44,14 @@
 
 
 <br>
+
+## 🛠 Technologies
+
+- TypeScript: Programming language used for the development of the project.
+- Tsup: Build and bundling tool for TypeScript projects.
+- Tsx: TypeScript runtime/compiler that supports building and running TypeScript projects.
+- Node.js: JavaScript runtime environment that allows executing JavaScript code on the server side.
+- @types/node: Type definition package for Node.js to assist development with TypeScript.
+
+<br>
+
