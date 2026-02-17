@@ -6,7 +6,7 @@
   <a href="#-live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#support">Support</a>  
@@ -52,6 +52,13 @@
 - Tsx: TypeScript runtime/compiler that supports building and running TypeScript projects.
 - Node.js: JavaScript runtime environment that allows executing JavaScript code on the server side.
 - @types/node: Type definition package for Node.js to assist development with TypeScript.
+
+<br>
+
+## ✨ Features
+
+- List podcast episodes by category sections: Episodes are organized into categories such as health, bodybuilding, mindset, and humor, allowing users to easily explore the available content.
+- Filter episodes by podcast name: Users can perform specific searches by podcast name, making it easier to access the desired episodes.
 
 <br>
 
