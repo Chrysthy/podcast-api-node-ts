@@ -7,6 +7,7 @@
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#support">Support</a>  
@@ -61,4 +62,17 @@
 - Filter episodes by podcast name: Users can perform specific searches by podcast name, making it easier to access the desired episodes.
 
 <br>
+
+
+## ⚙ How to Run
+
+- You need to have <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> installed on your machine.
+- Clone the project.
+- Install the dependencies using <kbd>npm install</kbd>
+- Start the server by running <kbd>start:dev</kbd>
+- Access the provided endpoints to list podcast episodes or filter them by podcast name.
+
+<br>
+
+
 
