@@ -18,3 +18,29 @@
 
 
 <br>
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Live%20Demo-GitHub-sucess?labelColor=black" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Tip: Use right-click → “Open in new tab”.</sub>
+</p>
+
+<br>
+
+
+## 📸 Screenshots
+
+<br>
+
+<p align="center">
+  <img src=".github/foto-do-projeto.png" alt="Gif do Projeto"  width="90%">
+</p>
+
+
+<br>
