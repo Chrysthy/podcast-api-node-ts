@@ -29,6 +29,18 @@
 </p>
 
 <p align="center">
+  <a href="https://podcast-api-node-ts.onrender.com/api/list">All list</a>
+</p>
+
+<p align="center">
+  <a href="https://podcast-api-node-ts.onrender.com/api/episode?p=flow">Flow Episodes</a>
+</p>
+
+<p align="center">
+  <a href="https://podcast-api-node-ts.onrender.com/api/episode?p=venus">Venus Episodes</a>
+</p>
+
+<p align="center">
   <sub>Tip: Use right-click → “Open in new tab”.</sub>
 </p>
 
@@ -73,6 +85,7 @@
 - Access the provided endpoints to list podcast episodes or filter them by podcast name.
 
 <br>
+
 
 
 
