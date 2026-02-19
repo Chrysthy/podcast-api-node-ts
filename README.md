@@ -24,7 +24,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/badge/Live%20Demo-GitHub-sucess?labelColor=black" />
+    <img src="https://img.shields.io/badge/Live%20Demo-Render-blue?labelColor=black" />
   </a>
 </p>
 
@@ -99,6 +99,7 @@
 
 ## 🌟 Support
 <p> If you like this project, please give it a star ⭐ and share it with others! 😄 </p>
+
 
 
 
